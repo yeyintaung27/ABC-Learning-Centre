@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ABC Learning Center</title>
+
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="icon" href="img/icon.png" type="icon/png">
+</head>
+
+    <style>
+        .schedule{
+            margin: 7rem 0;
+            display: flex;
+        }
+
+        .schedule img{
+            width: 300px;
+            height: auto;
+        }
+
+        @media screen and (max-width: 880px){
+            .schedule{
+                display: block;
+            }
+
+            .schedule .image{
+                margin: 1.3rem auto;
+            }
+            .schedule img{
+                width: 300px;                
+            }
+        }
+    </style>
+<body>
+
+    <main>
+
+        <header>            
+            <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+                <div class="container-fluid box">
+                  <a class="navbar-brand" href="home.html">ABC <p>Learning Center</p></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                      </li>
+                    </ul>
+                    <span class="navbar-text">
+                      <a href="login.html" type="button" class="btn">Log In</a>
+                      <a href="signup.html" type="button" class="btn">Sign Up</a>
+                    </span>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <div class="container-fluid schedule">
+            <div class="image">
+                <img src="img/img11.png" alt="image">
+            </div>
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Course</th>
+                    <th scope="col">Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Sunday</th>
+                    <td>Introduction</td>
+                    <td>9:00AM to 10:00AM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Monday</th>
+                    <td>.Net Basic</td>
+                    <td>12:00AM to 1:00PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Tuesday</th>
+                    <td>What is .Net?</td>
+                    <td>2:00PM to 3:00PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Wednesday</th>
+                    <td>Looping Control Structure</td>
+                    <td>4:00PM to 5:00PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Thursday</th>
+                    <td>Method Overloading</td>
+                    <td>10:00AM to 11:00AM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Friday</th>
+                    <td>Constructors</td>
+                    <td>11:00AM to 12:00AM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Saturday</th>
+                    <td>Exercises</td>
+                    <td>1:00PM to 2:00PM</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+        <div class="container">
+            <footer class="row row-cols-1 row-cols-sm-2 border-top">
+              
+              <div class="col mb-3 text-center">
+                <h5 class="m-3">Start Learning Course</h5>
+                <a href="signup.html" class="link">Join The Course</a>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="privacypolicy.html" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+                  <li class="nav-item mb-2"><a href="sitemap.html" class="nav-link p-0 text-muted">Site Map</a></li>                  
+                </ul>
+              </div>
+          
+              <div class="col mb-3 text-center">
+                <h5>links</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="https://www.facebook.com/" class="nav-link p-0 text-muted">Facebook</a></li>
+                  <li class="nav-item mb-2"><a href="https://www.instagram.com/" class="nav-link p-0 text-muted">Instagram</a></li>
+                  <li class="nav-item mb-2"><a href="https://www.likedin.com/" class="nav-link p-0 text-muted">Likedin</a></li>
+                </ul>
+              </div>
+                    
+            </footer>
+          </div>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="js/script.js"></script>
+
+   
+</body>
+</html>
